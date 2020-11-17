@@ -16,6 +16,7 @@ Das Literal _1e-4_ ist gleich zum Literal _0.0001_.
 * **Definition vom Copy-Konstruktor** Die Attribute kopieren ihre Werte von einem anderen Punkt.
 * **Definition einer Methode _initialize_ zur Eingabe** Sie soll die Eingabe der Attribute in der Konsole organisieren.
 * **Definition einer Methode _translate_ zur Translation** Sie soll die Attribute des Punktes durch Translation ändern.
+![Translation](https://github.com/fdiba-inf/vorlesung/raw/master/images/exercise8/translation.png)
 * **Definition einer Methode _createNewTranslatedPoint_ zur Erstellung eines Punktes durch Translation** Sie soll einen neuen Punkt durch Translation relativ zu diesem Punkt erstellen.
 * **Definition einer Methode _equals_ zum Vergleich zu einem anderen Punkt** Sie vergleicht, ob die Attribute dieses Punktes und die Attribute eines anderen Punktes gleich sind.
 * **Definition einer Methode _toString_** Sie hat die Aufgabe der Punkt als String darzustellen z.B. _(2.6, 9.1)_.
@@ -24,7 +25,16 @@ Betrachten Sie die Klasse _PointDemo_ im Paket _exercise8_.
 Sie enthalten eine main-Methode, die alle Konstruktoren und Methoden der _Point_ Klasse überprüft.
 Ausgabe, wenn für Punkt 3 die Werte _6_ und _9_ in der Konsole eingegeben werden:
 ``` 
-
+Point 1: (0.0, 0.0)
+Point 2: (1.0, 2.0)
+Point 3: (6.0, 9.0)
+Point 4: (6.0, 9.0)
+Point 5: (2.0, 4.0)
+Point 6: (1.0, 2.0)
+Translated point 2: (5.0, 7.0)
+Translated point 6: (5.0, 7.0)
+Point 1 equals point 5: false
+Translated point 1 equals point 5: true
 ``` 
 ## Aufgabe 3. Speicherplatz
 Wie sieht der Speicherplatz nach der Ausführung der main-Methode aus? 
